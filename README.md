@@ -1,3 +1,14 @@
+# Microsoft Research Multimodal Aligned Recipe Corpus
+
+COMING SOON!
+
+This repository will contain information about how to access the dataset described in the paper below:
+
+<a href="https://arxiv.org/pdf/2005.09606.pdf">A Recipe for Creating Multimodal Aligned Datasets for Sequential Tasks</a><br/>
+Angela S. Lin, Sudha Rao, Asli Celikyilmaz, Elnaz Nouri, Chris Brockett, Debadeepta Dey, Bill Dolan <br/>
+Microsoft Research, Redmond, WA, USA <br/>
+
+Contact Person: Sudha Rao (Sudha.Rao@microsoft.com)
 
 # Contributing
 
