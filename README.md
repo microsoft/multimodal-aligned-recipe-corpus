@@ -1,7 +1,5 @@
 # Microsoft Research Multimodal Aligned Recipe Corpus
 
-COMING SOON!
-
 This repository will contain information about how to access the dataset described in the paper below:
 
 <a href="https://arxiv.org/pdf/2005.09606.pdf">A Recipe for Creating Multimodal Aligned Datasets for Sequential Tasks</a><br/>
@@ -10,6 +8,22 @@ Angela S. Lin, Sudha Rao, Asli Celikyilmaz, Elnaz Nouri, Chris Brockett, Debadee
 Microsoft Research, Redmond, WA, USA <br/>
 
 Contact Person: Sudha Rao (Sudha.Rao@microsoft.com)
+
+# Steps for downloading the corpus
+
+pip install azure-storage-blob
+
+Run the following in a python3 environment: 
+
+from azure.storage.blob import BlobClient
+blob_client = BlobClient.from_blob_url(blob_url="https://recipecorpus.blob.core.windows.net/multimodal-aligned-recipe-corpus/multimodal-aligned-recipe-corpus.zip")
+with open("./multimodal-aligned-recipe-corpus.zip", "wb") as my_blob:
+  blob_data = blob_client.download_blob()
+  blob_data.readinto(my_blob)
+
+Running this should download the zipped file (multimodal-aligned-recipe-corpus.zip) to the current directory. 
+
+Read multimodal-aligned-recipe-corpus/README.txt for further details about the format of the data. 
 
 # Contributing
 
