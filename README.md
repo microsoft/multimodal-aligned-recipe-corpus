@@ -1,6 +1,6 @@
 # Microsoft Research Multimodal Aligned Recipe Corpus
 
-This repository will contain information about how to access the dataset described in the paper below:
+This repository contains information about how to access the dataset described in the paper below:
 
 <a href="https://arxiv.org/pdf/2005.09606.pdf">A Recipe for Creating Multimodal Aligned Datasets for Sequential Tasks</a><br/>
 <i>To appear in the proceedings of Association of Computational Linguistics ACL2020 </i><br/>
