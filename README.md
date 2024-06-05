@@ -16,7 +16,7 @@ pip install azure-storage-blob
 Run the following in a python3 environment: 
 
 from azure.storage.blob import BlobClient <br/>
-blob_client = BlobClient.from_blob_url(blob_url="https://recipecorpus.blob.core.windows.net/multimodal-aligned-recipe-corpus/multimodal-aligned-recipe-corpus.zip") <br/>
+blob_client = BlobClient.from_blob_url(blob_url="https://recipecorpus.z13.web.core.windows.net/multimodal-aligned-recipe-corpus.zip") <br/>
 with open("./multimodal-aligned-recipe-corpus.zip", "wb") as my_blob: <br/>
 &emsp;&emsp;blob_data = blob_client.download_blob() <br/>
 &emsp;&emsp;blob_data.readinto(my_blob) <br/>
