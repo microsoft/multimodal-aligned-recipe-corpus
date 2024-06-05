@@ -2,8 +2,8 @@
 
 This repository contains information about how to access the dataset described in the paper below:
 
-<a href="https://arxiv.org/pdf/2005.09606.pdf">A Recipe for Creating Multimodal Aligned Datasets for Sequential Tasks</a><br/>
-<i>To appear in the proceedings of Association of Computational Linguistics ACL2020 </i><br/>
+<a href="https://aclanthology.org/2020.acl-main.440/">A Recipe for Creating Multimodal Aligned Datasets for Sequential Tasks</a><br/>
+<i>In the proceedings of Association of Computational Linguistics ACL2020 </i><br/>
 Angela S. Lin, Sudha Rao, Asli Celikyilmaz, Elnaz Nouri, Chris Brockett, Debadeepta Dey, Bill Dolan <br/>
 Microsoft Research, Redmond, WA, USA <br/>
 
